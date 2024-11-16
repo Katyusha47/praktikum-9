@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 9</title>
+</head>
+<body>
+    <form action="process.php" method="POST">
+        <label for="birthdate">Tanggal Lahir:</label>
+        <input type="date" id="birthdate" name="birthdate" required>
+        <br><br>
+        <label>Pilih hobi yang disukai:</label><br>
+        <input type="checkbox" name="hobbies[]" value="Science"> Science<br>
+        <input type="checkbox" name="hobbies[]" value="Technology"> Technology<br>
+        <input type="checkbox" name="hobbies[]" value="Art"> Art<br>
+        <input type="checkbox" name="hobbies[]" value="Sport"> Sport<br>
+        <input type="checkbox" name="hobbies[]" value="Gaming"> Gaming<br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
